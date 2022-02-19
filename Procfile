@@ -1,1 +1,1 @@
-web: gunicorn bank_transaction:app --log-file -
+web: python bank_transaction.py
